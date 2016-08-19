@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>WorkSite</title>
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="stylesheet" href="index.css" />
+	<style>
+		/*favicon image list*/
+		.baidu{
+			background-image:url(http://www.baidu.com/favicon.ico);
+		}
+	</style>
+</head>
+<body>
+	<div id="copytip" class="copytip">已经复制文字！</div>
+	<div id="colorpanel" class="colorpanel clearfix hide">
+		<i class="colorb origin"></i>
+		<i class="colorb blue"></i>
+		<i class="colorb green"></i>
+		<i class="colorb purple"></i>
+	</div>
+	<div id="fontpanel" class="fontpanel clearfix hide">
+		<i class="fontb lfont">大</i>
+		<i class="fontb mfont">中</i>
+		<i class="fontb sfont">小</i>
+	</div>
+
+	<h2 class="title"><span class="company">CompanyName</span></h2>
+	<div class="sortblock">	
+		<h3 class="sort">
+			<a class="sorttxt">SortName</a>
+		</h3>
+		<div class="label">CopyLabel：<input class="copytext" value="CopyText" readonly="true" /></div>
+		<h3 class="sort">
+			<a class="sorttxt">WebSite</a>
+		</h3>
+		<a target="_blank" href="http://www.baidu.com" class="link baidu">baidu</a>
+	</div>
+	
+	<div class="sortblock">
+		<h3 class="sort">
+			<a class="sorttxt">TaskBord</a>
+		</h3>
+		<ol class="rounded-list">
+			<li><a>Task Description.......</a></li>
+			<li><a>Task Description.......</a></li>
+			<li><a>Task Description.......</a></li>
+      	</ol>
+      	<ol class="rectangle-list">
+          <li><a href="">Task Description.......</a></li>
+          <li><a href="">Task Description.......</a></li>
+      	</ol>
+      	<ol class="circle-list">
+			<li>
+			  <h2>Difficult Task Title</h2>
+			  <p>Task Description.......</p>
+			</li>
+			<li>
+			  <h2>Difficult Task Title</h2>
+			  <p>Task Description.......</p>
+			</li>
+      	</ol>
+	</div>
+
+	<script src="index.js"></script>
+</body>
+</html>
