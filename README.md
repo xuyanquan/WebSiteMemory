@@ -1,8 +1,7 @@
-# WebSiteMemory
+# 网站标签记录
+###使用
 
-Useage
-
-edit html and add tag
+编辑html，增加A标签。
 
 Demo
 ```html
@@ -19,8 +18,7 @@ Demo
 </div>
 ```
 
-config favicon.ico in head style and use in body class.
-link class style bg icon is default: ![icon](https://ss0.bdstatic.com/k4oZeXSm1A5BphGlnYG/icon/6000.png)
+在head标签里面配置网站的favicon，然后在a链接上用上class。默认链接样式: ![icon](https://ss0.bdstatic.com/k4oZeXSm1A5BphGlnYG/icon/6000.png)
 
 ```css
 .baidu{
@@ -30,3 +28,6 @@ link class style bg icon is default: ![icon](https://ss0.bdstatic.com/k4oZeXSm1A
 ```html
 <a target="_blank" href="http://www.baidu.com" class="link baidu">百度一下</a>
 ```
+
+###效果
+![display](demo/demo.png)
